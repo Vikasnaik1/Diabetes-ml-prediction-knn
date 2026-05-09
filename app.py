@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import numpy as np
  
-with open("model__3_.pkl", "rb") as f:
+with open("model.pkl", "rb") as f:
     model = pickle.load(f)
  
 st.set_page_config(page_title="Diabetes Prediction", layout="centered")
