@@ -69,7 +69,7 @@ html,body,[data-testid="stAppViewContainer"]{background:#06090F;font-family:'Out
 
 @st.cache_resource
 def load_model():
-    with open("model__4_.pkl", "rb") as f:
+    with open("model.pkl", "rb") as f:
         return pickle.load(f)
 
 model = load_model()
